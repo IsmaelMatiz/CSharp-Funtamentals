@@ -45,6 +45,8 @@ internal class Program
                     break;
             }
         }
+        Console.WriteLine("El programa se cerrara en 10 segundos");
+        Thread.Sleep( 10000 );
 
     }
 
